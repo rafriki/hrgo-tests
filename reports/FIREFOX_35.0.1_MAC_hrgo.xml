@@ -5,43 +5,16 @@
 
   <testsuite name="hrgo"
     errors="0" failures="0" hostname="" id="" package="hrgo" skipped="0"
-    tests="9" time="26.35" timestamp="Thu, 16 Apr 2015 09:46:27 GMT">
+    tests="9" time="38.31" timestamp="Thu, 16 Apr 2015 10:30:00 GMT">
   
-    <testcase name="404" time="6.382" assertions="2">
+    <testcase name="404" time="12.78" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="google" time="4.120" assertions="5">
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="home" time="7.157" assertions="12">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase name="google" time="8.539" assertions="5">
 
     
 
@@ -54,25 +27,7 @@
     
     </testcase>
   
-    <testcase name="about" time="1.230" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="locations" time="1.501" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="branch" time="1.567" assertions="4">
+    <testcase name="home" time="7.572" assertions="12">
 
     
 
@@ -81,18 +36,14 @@
     
 
     
-    </testcase>
-  
-    <testcase name="sectors" time="1.819" assertions="3">
 
     
 
     
 
     
-    </testcase>
-  
-    <testcase name="blog" time="2.305" assertions="4">
+
+    
 
     
 
@@ -103,7 +54,56 @@
     
     </testcase>
   
-    <testcase name="end" time="0.2670" assertions="0">
+    <testcase name="about" time="1.593" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="locations" time="1.524" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="branch" time="1.619" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="sectors" time="2.050" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="blog" time="2.348" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="end" time="0.2940" assertions="0">
     </testcase>
   
   

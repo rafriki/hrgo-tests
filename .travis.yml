@@ -2,10 +2,13 @@ language: node_js
 node_js:
   - "0.10"
 
+addons:
+  sauce_connect:
+    username: "rafriki_github"
+    access_key: "339bd34e-ca3b-48a8-95a0-004e33434ead"
+
 before_script:
-  - brew install selenium-webdriver
   - npm install -g nightwatch
 
 script:
-  - selenium-webdriver
   - nightwatch
