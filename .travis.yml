@@ -8,8 +8,8 @@ addons:
     access_key: "339bd34e-ca3b-48a8-95a0-004e33434ead"
 
 before_script:
-  - curl https://gist.github.com/santiycr/5139565/raw/sauce_connect_setup.sh | bash
   - npm install -g nightwatch
+  - curl https://gist.github.com/santiycr/5139565/raw/sauce_connect_setup.sh | bash
 
 script:
   - nightwatch
