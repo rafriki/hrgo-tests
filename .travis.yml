@@ -1,15 +1,15 @@
 language: node_js
 node_js:
-	- "0.10"
+  - "0.10"
 
 addons:
-	sauce_connect:
-		username: "rafriki_github"
-		access_key: "339bd34e-ca3b-48a8-95a0-004e33434ead"
+  sauce_connect:
+    username: "rafriki_github"
+    access_key: "339bd34e-ca3b-48a8-95a0-004e33434ead"
 
 before_script:
-	- npm install -g nightwatch
-	- curl https://gist.github.com/santiycr/5139565/raw/sauce_connect_setup.sh | bash
+  - curl https://gist.github.com/santiycr/5139565/raw/sauce_connect_setup.sh | bash
+  - npm install -g nightwatch
 
 script:
-	- nightwatch
+  - nightwatch
