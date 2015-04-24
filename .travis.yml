@@ -8,4 +8,4 @@ addons:
     access_key: "339bd34e-ca3b-48a8-95a0-004e33434ead"
 
 script:
-  - nightwatch
+  - nightwatch -e saucelabs
