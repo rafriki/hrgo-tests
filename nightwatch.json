@@ -6,7 +6,7 @@
   "disable_colors": false,
 
   "selenium" : {
-    "start_process" : false,
+    "start_process" : true,
     "server_path" : "",
     "log_path" : "",
     "host" : "127.0.0.1",
@@ -39,8 +39,8 @@
     "saucelabs" : {
       "selenium_host" : "ondemand.saucelabs.com",
       "selenium_port" : 80,
-      "username" : "rafriki",
-      "access_key" : "b59efa1b-910d-49a0-a3f2-32e63e34f1e0",
+      "username" : "rafriki_github",
+      "access_key" : "339bd34e-ca3b-48a8-95a0-004e33434ead",
       "use_ssl" : false,
       "silent" : true,
       "output" : true,

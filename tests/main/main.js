@@ -1,16 +1,6 @@
+process.setMaxListeners(0);
+
 module.exports = {
-  'google': function (client) {
-    client
-      .url('http://www.google.com')
-      .waitForElementVisible('body', 1000)
-      .assert.title('Google')
-      .assert.visible('input[type=text]')
-      .setValue('input[type=text]', 'hrgo')
-      .waitForElementVisible('button[name=btnG]', 1000)
-      .click('button[name=btnG]')
-      .pause(1000)
-      .assert.containsText('ol#rso', 'HRGO');
-  },
   '404' : function (client) {
     client
       .maximizeWindow()
@@ -75,7 +65,12 @@ module.exports = {
       .waitForElementPresent('body', 500, 'page loaded')
       .verify.elementPresent('.blog-hero', 'We have reached the blog page')
       .verify.elementPresent('.blog-hero h1', 'Featured post is rendered')
-      .verify.elementPresent('.blog-post', 'Blog posts are being displayed');
+      .verify.elementPresent('.blog-post', 'Blog posts are being displayed')
+      .click('h1')
+      .waitForElementPresent('body', 500, 'page loaded')
+      .verify.elementPresent('.post-body', 'We have reached a blog post')
+      .verify.elementPresent('#disqus_thread', 'Disqus is installed');
+
   },
   'end': function (client) {
     client

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="9">
+
+  <testsuite name="hrgo"
+    errors="0" failures="0" hostname="" id="" package="hrgo" skipped="0"
+    tests="9" time="28.33" timestamp="Fri, 17 Apr 2015 22:54:55 GMT">
+  
+    <testcase name="404" time="6.683" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="google" time="4.087" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="home" time="6.718" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="about" time="1.483" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="locations" time="1.336" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="branch" time="1.808" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="sectors" time="1.932" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="blog" time="4.013" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="end" time="0.2720" assertions="0">
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
