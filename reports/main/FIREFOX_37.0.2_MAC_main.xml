@@ -5,16 +5,16 @@
 
   <testsuite name="main"
     errors="0" failures="0" hostname="" id="" package="main" skipped="0"
-    tests="8" time="29.00" timestamp="Mon, 27 Apr 2015 14:27:40 GMT">
+    tests="8" time="28.24" timestamp="Tue, 28 Apr 2015 13:28:33 GMT">
   
-    <testcase name="404" time="12.13" assertions="2">
+    <testcase name="404" time="6.575" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="home" time="6.060" assertions="12">
+    <testcase name="home" time="8.786" assertions="12">
 
     
 
@@ -25,61 +25,6 @@
     
 
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="about" time="1.446" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="locations" time="1.387" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="branch" time="1.912" assertions="4">
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="sectors" time="1.827" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="blog" time="4.007" assertions="7">
 
     
 
@@ -96,7 +41,62 @@
     
     </testcase>
   
-    <testcase name="end" time="0.2260" assertions="0">
+    <testcase name="about" time="1.673" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="locations" time="1.896" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="branch" time="2.188" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="sectors" time="2.113" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="blog" time="4.764" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="end" time="0.2450" assertions="0">
     </testcase>
   
   

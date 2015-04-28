@@ -5,37 +5,16 @@
 
   <testsuite name="reg"
     errors="0" failures="0" hostname="" id="" package="reg" skipped="0"
-    tests="13" time="23.23" timestamp="Mon, 27 Apr 2015 14:28:09 GMT">
+    tests="13" time="20.53" timestamp="Tue, 28 Apr 2015 14:06:01 GMT">
   
-    <testcase name="init" time="4.933" assertions="2">
+    <testcase name="init" time="4.782" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="eligible" time="0.7500" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="names" time="1.722" assertions="9">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase name="eligible" time="0.6830" assertions="3">
 
     
 
@@ -44,13 +23,7 @@
     
     </testcase>
   
-    <testcase name="address" time="2.284" assertions="12">
-
-    
-
-    
-
-    
+    <testcase name="names" time="1.642" assertions="9">
 
     
 
@@ -71,22 +44,13 @@
     
     </testcase>
   
-    <testcase name="contact" time="1.159" assertions="6">
+    <testcase name="address" time="2.149" assertions="12">
 
     
 
     
 
     
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="desired work" time="2.607" assertions="9">
 
     
 
@@ -107,7 +71,7 @@
     
     </testcase>
   
-    <testcase name="transport" time="1.822" assertions="6">
+    <testcase name="contact" time="1.160" assertions="6">
 
     
 
@@ -122,22 +86,13 @@
     
     </testcase>
   
-    <testcase name="emergency contact" time="1.138" assertions="6">
+    <testcase name="desired work" time="1.947" assertions="9">
 
     
 
     
 
     
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="income" time="1.135" assertions="6">
 
     
 
@@ -152,25 +107,9 @@
     
     </testcase>
   
-    <testcase name="cv" time="0.5440" assertions="3">
+    <testcase name="transport" time="1.187" assertions="6">
 
     
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="terms" time="0.5480" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="submit" time="4.399" assertions="5">
 
     
 
@@ -183,7 +122,66 @@
     
     </testcase>
   
-    <testcase name="end" time="0.1900" assertions="0">
+    <testcase name="emergency contact" time="1.145" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="income" time="1.058" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="cv" time="0.4070" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="terms" time="0.5260" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="submit" time="3.656" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="end" time="0.1870" assertions="0">
     </testcase>
   
   

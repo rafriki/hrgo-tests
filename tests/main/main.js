@@ -70,7 +70,6 @@ module.exports = {
       .waitForElementPresent('body', 500, 'page loaded')
       .verify.elementPresent('.post-body', 'We have reached a blog post')
       .verify.elementPresent('#disqus_thread', 'Disqus is installed');
-
   },
   'end': function (client) {
     client
