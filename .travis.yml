@@ -1,8 +1,3 @@
-env:
-  global:
-    - secure: QS7E0J9UOD4+HUc6VgZImrXdil42H1+S79MzcNWQGPXsk+o3NPHU+9qsNbjIZXHNjTiBk0aK1P438BXWl3Ajg0KMeJY1T9B02Va6wURn5XaKo6psSYob222hSVAvCbQBcrwfRE59CNRiaAg/AZDNE3lmz37CaSWQgbjWD0I/4Xc=
-    - secure: VcSK1CF/6MmjJtuEC1n+jFYcyif+qWHyL81zUq1eOV4IL8izcJK+KgvXssIdkl98ZZUBM6DcpkmRSDgg3njcOGcFtq62Gn8sbs6tm5QQ/gJTRxF52EZ6EuJjbmkYz6asmj/qsumU9fPSzfSfu2fI0pqL1XaIqFs5yfUAX7oGvAc=
-
 language: node_js
 
 notifications:
@@ -12,7 +7,9 @@ node_js:
   - "0.10"
 
 addons:
-  sauce_connect: true
+  sauce_connect:
+    username: "rafriki_github"
+    access_key: "339bd34e-ca3b-48a8-95a0-004e33434ead"
 
 before_script:
   - npm install -g nightwatch
