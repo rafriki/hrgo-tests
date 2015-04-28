@@ -7,6 +7,8 @@ addons:
     username: "rafriki_github"
     access_key: "339bd34e-ca3b-48a8-95a0-004e33434ead"
 
+before_script:
+- npm install -g nightwatch
+
 script:
-	"npm install -g nightwatch"
-	"nightwatch -e saucelabs"
+- nightwatch -e saucelabs
