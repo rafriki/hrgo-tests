@@ -3,10 +3,13 @@ language: node_js
 node_js:
   - "0.10"
 
+env:
+  global:
+    - secure: OwoZGD2HET2dQifXlrymWX1ndnFBwCSw2fwmExudH0ZR6rD50ZllEiLQexeR2XNqQpWvlTgVF0qRx6jsQMKB5BPS6lSEvkvHXQSqKeZBC5mjLSJICWPNlGmiFGV47f2gTlIqLLyn8oty2wUZKgA4qW7TFK7pF4gm6SEvz+sQYfU=
+    - secure: Him/VBMYLcL0kPL6dX8XXvHo4o21+4nlKPLCTM7tw86pshPQopR5ypJo3q73iI6APraQqSZob0Xjv0GdfPRWxhRuKowfivmBiBPOZmUMRDcUVZd5bUBjniw9/b90kc9wynTC4WQqV1uzHV8u76H36e9ZrMkapXqyzpIsGj2j60c=
+
 addons:
-  sauce_connect:
-    username: "rafriki_github"
-    access_key: "acf3d64f-15f3-4c17-8a1a-67fbd0175412"
+  sauce_connect: true
 
 before_script:
   - npm install -g nightwatch
