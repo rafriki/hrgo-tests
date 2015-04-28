@@ -1,7 +1,7 @@
 language: node_js
 
 notifications:
-  slack: hrgo:rBfT5PCkIuuud2xmjq6seVXu
+  slack: hrgo:A958kMGqcpSfwwUkPfYwHVNC
 
 node_js:
   - "0.10"
