@@ -4,7 +4,7 @@ node_js:
 
 addons:
   sauce_connect:
-    username: "vJbf8E9qcAmhlLX1FyW3VANvEP2lgJtY++dqKTQTUas2m/UJ05th/yKP9O20YuLQqXAQZISd5bYnRmSYJ4cYkLLYh3mufenjdeLQizIgdoipI0ytIA6VWwlBwm1u6/JgRnJoQObEbsgh0qC5b/BdWr83iOTJYlRd3fuUa6aU1M=
+    username: vJbf8E9qcAmhlLX1FyW3VANvEP2lgJtY++dqKTQTUas2m/UJ05th/yKP9O20YuLQqXAQZISd5bYnRmSYJ4cYkLLYh3mufenjdeLQizIgdoipI0ytIA6VWwlBwm1u6/JgRnJoQObEbsgh0qC5b/BdWr83iOTJYlRd3fuUa6aU1M=
     access_key: NZsglHw9HbkN9k5pLQrHyAaiQ53dDP7tAYtjtlFgP34K3zPN/jOh3/ErlC9rlJ2DKKuhxf3ibxu+tk+3BTnTWYcCmeDp3zydA8DdTSrVvuYt+zXTWfWk5EjPXC+v8s3O+DDnHm9fdNY3zF+862DZIQB8x5CrWK0WcOYIGG6k+sg=
 
 before_script:
