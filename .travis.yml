@@ -5,7 +5,7 @@ node_js:
 addons:
   sauce_connect:
     username: "rafriki_github"
-    access_key: "acf3d64f-15f3-4c17-8a1a-67fbd0175412"
+    access_key: "1905c399-4a12-4af4-888d-b04891bd3785"
 
 before_script:
   - npm install -g nightwatch
