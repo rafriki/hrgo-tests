@@ -20,7 +20,7 @@ module.exports = {
       .verify.hidden('.subNavigation', 'Subnav is not currently visible')
       .moveToElement('a[href^="/locations/"]', 10, 10)
       .verify.visible('.subNavigation', 'Subnav is visible when dropdown is hovered')
-      .verify.elementPresent('.subNavigation a[href^="/head-office/"]', 'SubNavigation links are rendered')
+      .verify.elementPresent('.subNavigation a[href^="/head-office"]', 'SubNavigation links are rendered')
       .verify.elementPresent('.navigation', 'Footer macro is working')
       .click('.navigation a[href^="/locations/"]')
       .pause(500)
