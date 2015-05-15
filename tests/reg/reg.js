@@ -131,7 +131,7 @@ module.exports = {
       .click("input[name=terms]")
       .verify.cssClassPresent("input[name=terms]", "ng-valid")
       .verify.value("input[name=terms]", "on")
-      .verify.attributeEquals("#terms-and-conditions", "href", "/terms-and-conditions");
+      .verify.attributeEquals("#terms-and-conditions", "href", "http://www.hrgo.co.uk/terms-and-conditions");
   },
    'submit' : function (client){
     client
