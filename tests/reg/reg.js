@@ -130,7 +130,8 @@ module.exports = {
       .verify.cssClassPresent("input[name=terms]", "ng-invalid")
       .click("input[name=terms]")
       .verify.cssClassPresent("input[name=terms]", "ng-valid")
-      .verify.value("input[name=terms]", "on");
+      .verify.value("input[name=terms]", "on")
+      .verify.attributeEquals("#terms-and-conditions", "href", "/terms-and-conditions");
   },
    'submit' : function (client){
     client
