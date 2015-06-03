@@ -46,7 +46,7 @@ module.exports = {
   },
   'branch' : function (client) {
     client
-      .url('http://hrgo.co.uk/locations/dudley')
+      .url('http://hrgo.co.uk/dudley')
       .waitForElementPresent('body', 500, 'page loaded')
       .verify.containsText('h1', 'Dudley', 'We have reached the dudley branch page')
       .verify.elementPresent('.industry-specialisms', 'Sector cards have been displayed')
