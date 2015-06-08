@@ -28,7 +28,6 @@ module.exports = {
       .click('.navigation .logo')
       .pause(500)
       .verify.urlEquals('http://www.hrgo.co.uk/', 'Clicking the logo brought us to home page again');
-
   },
   'about' : function (client){
     client
