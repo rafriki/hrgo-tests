@@ -4,7 +4,7 @@ node_js:
   - "0.10"
 
 notifications:
-  slack: hrgo:68j4IFyP85dFLUqpnCN86ipz
+  slack: hrgo:Ed0qTtQJdCmYLxag9RbWbSMx
 
 addons:
   sauce_connect:
