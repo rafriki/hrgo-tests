@@ -67,21 +67,6 @@
         "acceptSslCerts" : true,
         "phantomjs.binary.path" : "/path/to/phantomjs"
       }
-    },
-
-    "browserstack" : {
-      "selenium" : {
-        "start_process" : false
-      },
-      "selenium_host" : "hub.browserstack.com",
-      "selenium_port" : 80,
-      "silent" : true,
-      "desiredCapabilities": {
-        "name" : "test-example",
-        "browserName": "firefox",
-        "browserstack.user" : "...",
-        "browserstack.key" : "..."
-      }
     }
   }
 }
