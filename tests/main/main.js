@@ -12,7 +12,7 @@ module.exports = {
     client
       .url('http://hrgo.co.uk')
       .waitForElementPresent('body', 500, 'page loaded')
-      .verify.urlEquals('http://www.hrgo.co.uk', 'We are redirected to http://www.hrgo.co.uk')
+      .verify.urlEquals('http://www.hrgo.co.uk/', 'We are redirected to http://www.hrgo.co.uk')
       .verify.elementPresent('.home-hero', 'Home Hero section is displayed')
       .verify.elementPresent('.navigation', 'Navbar macro is working')
       .verify.elementPresent('a[href^="/about"]', 'Navbar links are rendered')
@@ -27,7 +27,7 @@ module.exports = {
       .verify.urlEquals('http://www.hrgo.co.uk/locations', 'we navigated to locations')
       .click('.navigation .logo')
       .pause(500)
-      .verify.urlEquals('http://www.hrgo.co.uk', 'Clicking the logo brought us to home page again');
+      .verify.urlEquals('http://www.hrgo.co.uk/', 'Clicking the logo brought us to home page again');
   },
   'about' : function (client){
     client
