@@ -1,1 +1,1 @@
-angular now from cdn
+
