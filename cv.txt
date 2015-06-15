@@ -1,1 +1,1 @@
-moved from register to main
+angular now from cdn
