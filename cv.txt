@@ -1,1 +1,1 @@
-testing minified angular
+moved from register to main
