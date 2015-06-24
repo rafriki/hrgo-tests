@@ -36,6 +36,12 @@ module.exports = {
       .verify.elementPresent('.clients-hero', 'About page has a hero section')
       .verify.elementPresent('.person-card-narrow', 'Senior Management team are being displayed');
   },
+  'keyAccounts' : function (client) {
+    client
+      .url('http://hrgo.co.uk/key-accounts')
+      .waitForElementPresent('body', 500, 'page loaded')
+      .verify.elementPresent('.ns-hero', 'key accounts page has a hero section');
+  },
   'locations' : function (client) {
     client
       .url('http://hrgo.co.uk/locations')
