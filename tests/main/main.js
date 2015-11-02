@@ -13,13 +13,7 @@ module.exports = {
       .url('http://hrgo.co.uk')
       .waitForElementPresent('body', 500, 'page loaded')
       .assert.urlEquals('http://www.hrgo.co.uk/', 'We are redirected to http://www.hrgo.co.uk')
-      .assert.elementPresent('.hero-carousel', 'Home carousel is loaded')
-      .click('.navigation a[href^="/locations"]')
-      .pause(500)
-      .verify.urlEquals('http://www.hrgo.co.uk/locations', 'we navigated to locations')
-      .click('.navigation .logo')
-      .pause(500)
-      .verify.urlEquals('http://www.hrgo.co.uk/', 'Clicking the logo brought us to home page again');
+      .assert.elementPresent('.hero-carousel', 'Home carousel is loaded');
   },
   'about' : function (client){
     client
@@ -62,11 +56,7 @@ module.exports = {
       .waitForElementPresent('body', 500, 'page loaded')
       .verify.elementPresent('.blog-hero', 'We have reached the blog page')
       .verify.elementPresent('.blog-hero h1', 'Featured post is rendered')
-      .verify.elementPresent('.blog-post', 'Blog posts are being displayed')
-      .click('h1')
-      .waitForElementPresent('body', 500, 'page loaded')
-      .verify.elementPresent('.post-body', 'We have reached a blog post')
-      .verify.elementPresent('#disqus_thread', 'Disqus is installed');
+      .verify.elementPresent('.blog-post', 'Blog posts are being displayed');
   },
   'end': function (client) {
     client

@@ -123,7 +123,7 @@ module.exports = {
   'cv' : function (client){
     client
       .verify.cssClassPresent("input[name=cvUpload]", "ng-invalid")
-      .setValue("input[name=cvUpload]", "/Users/John/Desktop/hrgo/cv.docx")
+      .setValue("input[name=cvUpload]", "/Users/John/dev/hrgo-tests/cv.docx")
       .verify.cssClassPresent("input[name=cvUpload]", "ng-valid");
   },
   'terms' : function (client){
@@ -138,12 +138,8 @@ module.exports = {
     client
       .click("input[type=submit]")
       .waitForElementPresent('div.sweet-alert', 500, 'response recieved')
-      .verify.containsText('h2', 'Thank you!', 'Form successful');
-    client.pause();
-    client.verify.visible("div .sweet-alert .success")
-      .click("button.confirm")
-      .waitForElementPresent('body', 500, 'page loaded')
-      .verify.urlEquals("http://www.hrgo.co.uk/", 'we are back home');
+      .verify.containsText('h2', 'Thank you!', 'Form successful')
+      .verify.visible("div.sa-success")
   },
   'end': function (client) {
     client
