@@ -123,7 +123,7 @@ module.exports = {
   'cv' : function (client){
     client
       .verify.cssClassPresent("input[name=cvUpload]", "ng-invalid")
-      .setValue("input[name=cvUpload]", "/Users/John/dev/hrgo-tests/cv.docx")
+      .setValue("input[name=cvUpload]", "../../cv.docx")
       .verify.cssClassPresent("input[name=cvUpload]", "ng-valid");
   },
   'terms' : function (client){

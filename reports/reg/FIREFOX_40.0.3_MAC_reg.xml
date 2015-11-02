@@ -5,9 +5,9 @@
 
   <testsuite name="reg"
     errors="0" failures="0" hostname="" id="" package="reg" skipped="0"
-    tests="13" time="0.000" timestamp="Mon, 02 Nov 2015 16:32:49 GMT">
+    tests="13" time="0.000" timestamp="Mon, 02 Nov 2015 16:41:29 GMT">
   
-    <testcase name="init" time="6.405" assertions="2">
+    <testcase name="init" time="4.854" assertions="2">
 
     
 
@@ -23,7 +23,7 @@
     
     </testcase>
   
-    <testcase name="names" time="0.3710" assertions="9">
+    <testcase name="names" time="0.4220" assertions="9">
 
     
 
@@ -44,7 +44,7 @@
     
     </testcase>
   
-    <testcase name="address" time="0.4800" assertions="12">
+    <testcase name="address" time="0.6840" assertions="12">
 
     
 
@@ -71,7 +71,7 @@
     
     </testcase>
   
-    <testcase name="contact" time="0.2960" assertions="6">
+    <testcase name="contact" time="0.3250" assertions="6">
 
     
 
@@ -86,7 +86,7 @@
     
     </testcase>
   
-    <testcase name="desired work" time="0.8200" assertions="9">
+    <testcase name="desired work" time="0.7150" assertions="9">
 
     
 
@@ -107,7 +107,7 @@
     
     </testcase>
   
-    <testcase name="transport" time="0.2970" assertions="6">
+    <testcase name="transport" time="0.2360" assertions="6">
 
     
 
@@ -122,7 +122,7 @@
     
     </testcase>
   
-    <testcase name="emergency contact" time="0.3120" assertions="6">
+    <testcase name="emergency contact" time="0.2400" assertions="6">
 
     
 
@@ -137,7 +137,7 @@
     
     </testcase>
   
-    <testcase name="income" time="0.3650" assertions="6">
+    <testcase name="income" time="0.2160" assertions="6">
 
     
 
@@ -152,25 +152,16 @@
     
     </testcase>
   
-    <testcase name="cv" time="0.1590" assertions="2">
+    <testcase name="cv" time="0.1030" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="terms" time="0.1410" assertions="4">
+    <testcase name="terms" time="0.1370" assertions="4">
 
     
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="submit" time="1.438" assertions="3">
 
     
 
@@ -179,7 +170,16 @@
     
     </testcase>
   
-    <testcase name="end" time="0.1130" assertions="0">
+    <testcase name="submit" time="1.202" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="end" time="0.2060" assertions="0">
     </testcase>
   
   
