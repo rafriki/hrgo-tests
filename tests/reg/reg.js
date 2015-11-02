@@ -2,6 +2,7 @@
 
 module.exports = {
   'init' : function (client){
+    client.pause(1000);
     process.setMaxListeners(0);
     client
       .url('http://hrgo.co.uk/register')
@@ -137,8 +138,9 @@ module.exports = {
     client
       .click("input[type=submit]")
       .waitForElementPresent('div.sweet-alert', 500, 'response recieved')
-      .verify.containsText('h2', 'Thank you!', 'Form successful')
-      .verify.visible("div .sweet-alert .success")
+      .verify.containsText('h2', 'Thank you!', 'Form successful');
+    client.pause();
+    client.verify.visible("div .sweet-alert .success")
       .click("button.confirm")
       .waitForElementPresent('body', 500, 'page loaded')
       .verify.urlEquals("http://www.hrgo.co.uk/", 'we are back home');

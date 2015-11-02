@@ -12,16 +12,8 @@ module.exports = {
     client
       .url('http://hrgo.co.uk')
       .waitForElementPresent('body', 500, 'page loaded')
-      .verify.urlEquals('http://www.hrgo.co.uk/', 'We are redirected to http://www.hrgo.co.uk')
-      .verify.elementPresent('.home-hero', 'Home Hero section is displayed')
-      .verify.elementPresent('.navigation', 'Navbar macro is working')
-      .verify.elementPresent('a[href^="/about"]', 'Navbar links are rendered')
-      .verify.elementPresent('.subNavigation', 'Subnav macro is working')
-      .verify.hidden('.subNavigation', 'Subnav is not currently visible')
-      .moveToElement('a[href^="/locations"]', 10, 10)
-      .verify.visible('.subNavigation', 'Subnav is visible when dropdown is hovered')
-      .verify.elementPresent('.subNavigation a[href^="/head-office"]', 'SubNavigation links are rendered')
-      .verify.elementPresent('.navigation', 'Footer macro is working')
+      .assert.urlEquals('http://www.hrgo.co.uk/', 'We are redirected to http://www.hrgo.co.uk')
+      .assert.elementPresent('.hero-carousel', 'Home carousel is loaded')
       .click('.navigation a[href^="/locations"]')
       .pause(500)
       .verify.urlEquals('http://www.hrgo.co.uk/locations', 'we navigated to locations')
@@ -53,7 +45,7 @@ module.exports = {
     client
       .url('http://hrgo.co.uk/dudley')
       .waitForElementPresent('body', 500, 'page loaded')
-      .verify.containsText('h1', 'Dudley', 'We have reached the dudley branch page')
+      .assert.urlEquals('http://www.hrgo.co.uk/locations/midlands/dudley', 'We are redirected to the Dudley Branch Page')
       .verify.elementPresent('.industry-specialisms', 'Sector cards have been displayed')
       .verify.elementPresent('.person-card-wide', 'Members of the team are being displayed');
   },
